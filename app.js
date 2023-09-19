@@ -120,7 +120,7 @@ function datamax(){
 	if(dataselecionada > dataatual)
 	{
 		confirm("Data não pode ser maior que data atual!");
-		sData.value=diadehoje;
+		sData.value=dataatual;
 	}
 
 }
